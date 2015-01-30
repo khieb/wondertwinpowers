@@ -37,7 +37,7 @@
 	#
 	$curl = curl_init();
 	curl_setopt_array($curl, array(
-	    CURLOPT_URL => 'https://hooks.slack.com/services/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',
+	    CURLOPT_URL => 'https://hooks.slack.com/services/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',
 	    CURLOPT_RETURNTRANSFER => 1,
 	    CURLOPT_POST => 1,
 	    CURLOPT_POSTFIELDS => array('payload' => '{"text": "'.$greeting.'"}')
